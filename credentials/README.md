@@ -4,8 +4,8 @@
 
 File: 'algorithmia.json'
 
-'''
+```js
 {
     "apiKey" : "YOUR API KEY"
 }
-'''
+```
