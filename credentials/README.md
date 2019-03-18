@@ -4,7 +4,7 @@
 
 File: 'algorithmia.json'
 
-```
+```js
 {
     "apiKey" : "YOUR API KEY"
 }
@@ -14,7 +14,7 @@ File: 'algorithmia.json'
 
 File: 'watson-nlu.json'
 
-```
+```js
 {
   "apikey": "YOUR API KEY",
   "iam_apikey_description": "...",
