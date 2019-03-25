@@ -1,16 +1,15 @@
 const bots = {
-    userInput : require('./robots/userInput'),
-    text: require('./robots/text')
+    input : require('./robots/input'),
+    text: require('./robots/text'),
+    state: require('./robots/state')
 };
 
 async function start(){
-	const content = {
-        maximumSentences: 7
-    }
 
-    await bots.userInput(content)
-    await bots.text(content)
+    bots.input()
+    await bots.text()
 
-	console.log(JSON.stringify(content, null, 4))
+    content = bots.state.load()
+	console.dir(content, { depth: null })
 }
 start()
