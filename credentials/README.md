@@ -1,4 +1,4 @@
-#Credential format
+# Credential format
 
 ## Algorithmia
 
